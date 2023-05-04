@@ -1,0 +1,80 @@
+.maincontacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    background-color: #985434d0;
+    overflow: hidden;
+
+    .formulario {
+        width: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border: 5px solid #eeeeee98;
+        border-radius: 10px;
+
+        p {
+            color: $colorlogo3;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        input {
+            outline: none;
+            background-color: transparent;
+            color: #eee;
+            border: none;
+            border-bottom: 1px solid #eee;
+            &::placeholder {
+                color: #eee;
+            }
+            &:focus {
+                background-color: $colorlogo3bg;
+            }
+        }
+        form {
+            ul {
+                padding: 0;
+            }
+            color: #eee;
+            li {
+                padding-top: 15px
+            }
+            textarea {
+                border: none;
+                border-bottom: 1px solid #fff;
+                background-color: transparent;
+                outline: none;
+                height: 80px;
+                font-size: 18px;
+                resize: none;
+                // width: 80%;
+                margin-bottom: 20px;
+                color: #eee;
+                &:focus {
+                    background-color: $colorlogo3bg;
+                }
+            }
+            .btn {
+                width: 80%;
+                font-weight: bold;
+                letter-spacing: 2px;
+                background-color: $colorlogo3;
+            }
+        }
+        h1 {
+            @extend .h1std;
+        }
+    }
+    .mapa {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+

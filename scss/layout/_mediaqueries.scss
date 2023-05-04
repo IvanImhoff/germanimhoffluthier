@@ -1,0 +1,225 @@
+
+@media only screen and (max-width: 1350px){
+
+
+        .caja img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 1300px){
+    
+    .container-prod {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "area1 area1"
+        "area2 area2"
+        "area3 area4"
+        "area5 area6"
+        "area7 area8"
+        ;
+        gap: 12px;
+    }
+
+    .instrumentos2 {
+        a {
+            padding: 28% 0;
+            font-size: 18px;
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width: 1000px){
+    // NAV
+    .container-fluid {
+        .nav-link {
+            background-position: 0% 100%;
+        }
+    }
+    
+
+    // procesos
+    
+    .main_proce{
+
+        .interval {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding-top: 50px;            
+            .roseta1 {
+                border-bottom: none;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .roseta2 {
+                img {
+                    height: 32vh;}
+            }
+            .prensado1 {
+                border-bottom: none;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .prensado2 {
+                img {
+                    height: 32vh;}
+            }
+        }
+    }
+
+    // productos
+    
+    .instrumentos2 {
+        a {
+            padding: 28% 0;
+            font-size: 16px;
+        }
+    }
+    .scroll_container {
+        a {
+            font-size: 16px;
+        }
+    }
+
+// SERVICIOS
+    .main-serv h2 {
+        font-size: 16px;
+    }
+
+    // CONTACTO
+    .maincontacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 800px){
+
+    .introprod {
+        width: 70%;
+    }
+
+    .instrumentos {    
+    width: 12%;
+    }
+
+    .container-prod {
+        width: 80%;
+        h2 {
+            padding: 25px 0px;
+        }
+    }
+} 
+
+@media only screen and (max-width: 768px){
+    // INDEX
+    .mainindex {
+        .index_first {
+            text-align: left;
+            align-items: center;
+        }
+        .index_second {
+            padding: 10px;
+        }
+    }
+    
+
+
+    // PROCESOS
+    .main_proce{
+        padding: 20px;
+        .interval {
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+
+            .roseta1 {
+                border-bottom: none;
+            }
+
+            .roseta2 {
+                width: 100%;
+                height: 100%
+            }
+            .prensado1 {
+                border-bottom: none;
+            }
+
+            .prensado2 {
+                width: 100%;
+                height: 100%
+                
+            }
+        }
+    }
+    // Productos
+    .caja {
+        height: 180px;
+        width: 100%;
+        img {
+            max-height: 100%;
+        }
+    }
+    // contacto
+    .maincontacto {
+        @include flex (column, center, center, wrap);
+        gap: 50px;
+        padding: 15px;
+    } 
+}
+
+@media only screen and (max-width: 700px){
+    .mainprod{
+        .introprod {
+            left: 0;
+            width: 100%;
+            padding: 0 20px 20px 20px;
+        }
+        .container-prod {
+            left: 0;
+            width: 100%;
+            padding: 0 20px 20px 20px;   
+        }
+        .instrumentos {
+            display: none;
+        }
+    }
+    
+
+}
+
+@media only screen and (max-width: 500px){
+    // contacto
+    .maincontacto {
+        padding: 15px 0;
+        .formulario {
+            width: 70%;
+            h1 {
+                font-size: 40px;
+            }
+        }
+        .mapa {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .mainindex {
+        .index_first {
+            text-align: center;
+        }
+    }
+}
+

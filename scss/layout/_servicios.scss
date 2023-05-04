@@ -1,0 +1,54 @@
+
+.mainserv {
+    background-color: #985434d0;
+
+    h1 {
+        @extend .h1std;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .container-serv {
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 30px;
+    
+        .cardo {
+            width: 300px;
+            height: 430px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 2px 3px rgba(0,0,0,0.38);
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            transition: 0.3s;
+            color: $colorlogo3;
+            background-color: #eeeeeee0;
+    
+            &:hover {
+                transform: translatey(-12px);
+                box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+            }
+            img{
+                width: 330px;
+                height: 220px;
+                border-bottom: 1px solid $colorlogo3;
+            }
+            h2 {
+                font-weight: 600px;
+                padding: 10px 0 7px 0;
+                font-size: 30px;
+            }
+            p{
+                padding: 0 1rem;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+
+.main_proce {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #985434d0;
+    overflow: hidden;
+    & :nth-child(odd){
+    flex-direction: row-reverse;
+    }
+    p {
+        text-shadow: -5px 3px 5px rgba(36, 32, 32, 0.753);
+    }
+    .intro_proce {
+        h1 {
+            text-align: center;
+            @extend .h1std;
+        }
+    }
+
+    .interval {
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
+
+        h2 {
+            @extend .h2std;
+        }
+
+        .roseta1 {
+            border: inset 5px $colorlogo3;
+            border-right: none;
+            border-radius: 20px;
+            padding: 3vh;
+            color: #fff;
+        }
+        
+        .carousel-inner {
+            box-shadow: 1px 2px 9px 9px rgba(0,0,0,0.7);
+            -webkit-box-shadow: 1px 2px 9px 9px rgba(0,0,0,0.7);
+            -moz-box-shadow: 1px 2px 9px 9px rgba(0,0,0,0.7);
+            img {
+                object-fit: cover;
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+        .prensado1 {
+            border: inset 5px $colorlogo3;
+            border-left: none;
+            border-radius: 20px;
+            padding: 3vh;
+            color: #fff;
+            transition: 0.4s;
+        }
+    }
+    
+}

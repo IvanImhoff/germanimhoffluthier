@@ -1,0 +1,35 @@
+@mixin flex ($direction, $justify,$align,$wrap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+.h1std {
+    letter-spacing: 5px;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    text-shadow: -5px 3px 5px rgba(36, 32, 32, 0.753);
+    @media only screen and (max-width: 768px){ 
+        font-size: 45px;
+    }
+    @media only screen and (max-width: 768px){ 
+        font-size: 45px;
+    }
+}
+
+.h2std {
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: $colorlogo1;
+    text-shadow: -5px 3px 5px rgba(36, 32, 32, 0.753);
+    @media only screen and (max-width: 768px){ 
+        font-size: 30px;
+    }
+
+}

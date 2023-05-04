@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/issues</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/pulls</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/projects?query=is%3Aopen</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/security</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/blob/main/index.html</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/blob/main/package.json</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/releases</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/compare</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/caches</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4715061358</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4709934630</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4672796167</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4670398871</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4669996508</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4633981051</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/blob/1e767fae8eaab80080dbe34661219d244c584ad3/index.html</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/find/main</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/blob/1e767fae8eaab80080dbe34661219d244c584ad3/package.json</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels?sort=name-asc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels?sort=name-desc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels?sort=count-desc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels?sort=count-asc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/bug</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/documentation</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/duplicate</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/enhancement</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/good%20first%20issue</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/help%20wanted</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/invalid</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/question</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/labels/wontfix</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/caches?query=sort%3Aaccessed-desc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/caches?query=sort%3Aaccessed-asc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/caches?query=sort%3Acreated-desc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/caches?query=sort%3Acreated-asc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/caches?query=sort%3Asize-desc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/caches?query=sort%3Asize-asc</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4715061358/jobs/8361796715</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4715061358/jobs/8361801177</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4715061358/jobs/8361801241</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4715061358/usage</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/commit/1e767fae8eaab80080dbe34661219d244c584ad3</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4709934630/jobs/8353296334</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4709934630/jobs/8353300146</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4709934630/jobs/8353300202</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4709934630/usage</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/commit/a1f184de41992c9e2e52f2e9d50e1653b7d4612c</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4672796167/jobs/8275349659</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4672796167/jobs/8275359054</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4672796167/jobs/8275358933</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4672796167/usage</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/commit/e8c440441e664ffb2d174cf9b1b2fe47d19d170b</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4670398871/jobs/8270073773</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4670398871/jobs/8270085495</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4670398871/jobs/8270085277</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4670398871/usage</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/commit/cd305671ca7e0a592347b46107aa8ca366329fd6</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4669996508/jobs/8269181330</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4669996508/jobs/8269197398</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4669996508/jobs/8269197619</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4669996508/usage</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4633981051/jobs/8199718846</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4633981051/jobs/8199726242</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4633981051/jobs/8199726336</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/actions/runs/4633981051/usage</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/commit/6756e4aadab06b2aff18c57a2f1b2065315d02c4</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/find/1e767fae8eaab80080dbe34661219d244c584ad3</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/IvanImhoff/Segunda-Pre-entrega/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2023-04-19T23:52:31+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
