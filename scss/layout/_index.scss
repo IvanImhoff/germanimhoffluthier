@@ -11,15 +11,30 @@
         justify-content: center;
         text-align: justify;
         div {
-            -webkit-box-reflect: below -40px linear-gradient(transparent, transparent, red);
-        }
-        h1 {
-            @extend .h1std;
+            -webkit-box-reflect: below -10px linear-gradient(transparent, transparent, red);
+            margin-left: 2vw;
+            transition: 0.5s;
             
+            h1 {
+                @extend .h1std;
+                color: $colorlogo1;
+                
+                b {
+                    font-weight: 200;
+                    font-family: "Peiko";
+                }
+            }
+            h2 {
+                font-size: 40px;
+                display: flex;
+                align-self: center;
+                padding-left: 80px;
+                font-family: "Lexend Zetta", sans-serif;
+                font-weight: 200;
+                color: $colorlogo1;
+            }
         }
-        h2 {
-            @extend .h1std;
-        }
+            
     }
     .index_second {
         margin: 0;
@@ -29,8 +44,7 @@
         display: flex;
         p {
             color: #eee;
-            text-align: justify
-            
+            text-align: justify;
         }
         & p::first-letter {
             font-size: 130%;

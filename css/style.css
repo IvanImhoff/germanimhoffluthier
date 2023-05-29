@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,27 +14,45 @@ a {
   text-decoration: none;
 }
 
-.h1std, .maincontacto .formulario h1, .main_proce .intro_proce h1, .mainserv h1, .mainprod .introprod h1, .mainindex .index_first h2, .mainindex .index_first h1 {
+@font-face {
+  font-family: "Peiko";
+  src: local("Peiko"), url(./../Multimedia/Font/ppeiko-lightItalic.ttf);
+}
+@font-face {
+  font-family: "PPeiko";
+  src: local("PPeiko"), url(./../Multimedia/Font/ppeiko-Light.ttf);
+}
+.h1std, .maincontacto .formulario h1, .main_proce .intro_proce h1, .mainserv h1, .mainprod .introprod h1, .mainindex .index_first div h1 {
   letter-spacing: 5px;
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
-  font-family: "Italianno", cursive;
+  font-family: "PPeiko";
   text-shadow: -5px 3px 5px rgba(36, 32, 32, 0.753);
 }
 @media only screen and (max-width: 768px) {
-  .h1std, .maincontacto .formulario h1, .main_proce .intro_proce h1, .mainserv h1, .mainprod .introprod h1, .mainindex .index_first h2, .mainindex .index_first h1 {
+  .h1std, .maincontacto .formulario h1, .main_proce .intro_proce h1, .mainserv h1, .mainprod .introprod h1, .mainindex .index_first div h1 {
     font-size: 45px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .h1std, .maincontacto .formulario h1, .main_proce .intro_proce h1, .mainserv h1, .mainprod .introprod h1, .mainindex .index_first h2, .mainindex .index_first h1 {
+  .h1std, .maincontacto .formulario h1, .main_proce .intro_proce h1, .mainserv h1, .mainprod .introprod h1, .mainindex .index_first div h1 {
     font-size: 45px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .h1std, .maincontacto .formulario h1, .main_proce .intro_proce h1, .mainserv h1, .mainprod .introprod h1, .mainindex .index_first div h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .h1std, .maincontacto .formulario h1, .main_proce .intro_proce h1, .mainserv h1, .mainprod .introprod h1, .mainindex .index_first div h1 {
+    font-size: 25px;
   }
 }
 
 .h2std, .main_proce .interval h2, .container-prod .c1 h2, .mainindex .index_second h2 {
   text-align: center;
-  font-family: "Italianno", cursive;
+  font-family: "PPeiko";
   font-size: 45px;
   font-weight: 500;
   letter-spacing: 2px;
@@ -45,6 +64,11 @@ a {
     font-size: 30px;
   }
 }
+@media only screen and (max-width: 500px) {
+  .h2std, .main_proce .interval h2, .container-prod .c1 h2, .mainindex .index_second h2 {
+    font-size: 25px;
+  }
+}
 
 .container-fluid {
   background: linear-gradient(45deg, #312f30 20%, #985434 50%, #efe1d4);
@@ -52,7 +76,11 @@ a {
 .container-fluid .navbar-brand {
   font-size: 34px;
   letter-spacing: 3px;
-  font-family: "Italianno", cursive;
+  font-family: "PPeiko";
+}
+.container-fluid .navbar-brand b {
+  font-weight: 200;
+  font-family: "Peiko";
 }
 .container-fluid .nav-link {
   transition: 0.5s;
@@ -74,8 +102,8 @@ footer .container-fluid .row {
   background-color: #312f30;
 }
 footer .container-fluid .logo {
-  width: 150px;
-  height: 150px;
+  width: 384px;
+  height: 216px;
 }
 footer a:hover {
   text-decoration: underline;
@@ -121,7 +149,25 @@ footer .nets svg {
   text-align: justify;
 }
 .mainindex .index_first div {
-  -webkit-box-reflect: below -40px linear-gradient(transparent, transparent, red);
+  -webkit-box-reflect: below -10px linear-gradient(transparent, transparent, red);
+  margin-left: 2vw;
+  transition: 0.5s;
+}
+.mainindex .index_first div h1 {
+  color: #efe1d4;
+}
+.mainindex .index_first div h1 b {
+  font-weight: 200;
+  font-family: "Peiko";
+}
+.mainindex .index_first div h2 {
+  font-size: 40px;
+  display: flex;
+  align-self: center;
+  padding-left: 80px;
+  font-family: "Lexend Zetta", sans-serif;
+  font-weight: 200;
+  color: #efe1d4;
 }
 .mainindex .index_second {
   margin: 0;
@@ -158,9 +204,23 @@ footer .nets svg {
 }
 .mainprod .instrumentos {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #312f30;
   width: 10%;
   text-align: center;
+}
+.mainprod .instrumentos .vertical {
+  height: auto;
+  background-color: #fff;
+  padding: 30px 0;
+  transition: 0.3s;
+}
+.mainprod .instrumentos .vertical h2 {
+  font-size: 25px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 .mainprod .instrumentos li {
   padding: 30% 0;
@@ -192,13 +252,8 @@ footer .nets svg {
   height: 100%;
   margin-right: 5px;
 }
-.mainprod .scroll_container::before {
-  content: "";
-  display: block;
-  height: 100vh;
-  pointer-events: none;
-}
-.mainprod .scroll_container a {
+.mainprod .scroll_container svg {
+  color: #eee;
   padding: 5px;
   border-radius: 5px;
   position: sticky;
@@ -208,9 +263,15 @@ footer .nets svg {
   color: #eee;
   background-color: #312f30;
 }
-.mainprod .scroll_container a:hover {
+.mainprod .scroll_container svg:hover {
   color: #312f30;
   background-color: #eee;
+}
+.mainprod .scroll_container::before {
+  content: "";
+  display: block;
+  height: 100vh;
+  pointer-events: none;
 }
 
 .container-prod {
@@ -352,11 +413,11 @@ footer .nets svg {
   justify-content: space-around;
 }
 .main_proce .interval .roseta1 {
-  border: inset 5px #312f30;
+  border: solid 5px #312f30;
   border-right: none;
-  border-radius: 20px;
   padding: 3vh;
   color: #fff;
+  background-image: linear-gradient(to right, #312f30, rgba(49, 47, 48, 0.4039215686));
 }
 .main_proce .interval .carousel-inner {
   box-shadow: 1px 2px 9px 9px rgba(0, 0, 0, 0.7);
@@ -369,12 +430,11 @@ footer .nets svg {
   height: 500px;
 }
 .main_proce .interval .prensado1 {
-  border: inset 5px #312f30;
-  border-left: none;
-  border-radius: 20px;
+  border: solid 5px #312f30;
+  border-right: none;
   padding: 3vh;
   color: #fff;
-  transition: 0.4s;
+  background-image: linear-gradient(to left, #312f30, rgba(49, 47, 48, 0.4039215686));
 }
 
 .maincontacto {
@@ -392,6 +452,9 @@ footer .nets svg {
   text-align: center;
   border: 5px solid rgba(238, 238, 238, 0.5960784314);
   border-radius: 10px;
+}
+.maincontacto .formulario h1 {
+  font-size: 30px;
 }
 .maincontacto .formulario p {
   color: #312f30;
@@ -470,6 +533,11 @@ footer .nets svg {
     font-size: 18px;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .interval {
+    gap: 15px;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .container-fluid .nav-link {
     background-position: 0% 100%;
@@ -484,6 +552,7 @@ footer .nets svg {
     border-bottom: none;
     width: 100%;
     justify-content: center;
+    background-image: linear-gradient(to bottom, #312f30, rgba(49, 47, 48, 0.4039215686));
   }
   .main_proce .interval .roseta2 img {
     height: 32vh;
@@ -492,6 +561,7 @@ footer .nets svg {
     border-bottom: none;
     width: 100%;
     justify-content: center;
+    background-image: linear-gradient(to bottom, #312f30, rgba(49, 47, 48, 0.4039215686));
   }
   .main_proce .interval .prensado2 img {
     height: 32vh;
@@ -527,12 +597,14 @@ footer .nets svg {
   }
 }
 @media only screen and (max-width: 768px) {
-  .mainindex .index_first {
-    text-align: left;
-    align-items: center;
+  .mainindex .index_first h2 {
+    align-self: center;
   }
   .mainindex .index_second {
     padding: 10px;
+  }
+  .mainindex .index_second_right h2 {
+    padding-top: 20px;
   }
   .main_proce {
     padding: 20px;
@@ -574,6 +646,16 @@ footer .nets svg {
   }
 }
 @media only screen and (max-width: 700px) {
+  .container-fluid .navbar-brand {
+    font-size: 30px;
+  }
+  .container-fluid .navbar-brand b {
+    font-weight: 200;
+    font-family: "Peiko";
+  }
+  .mainindex .index_first div h2 {
+    margin-left: 0;
+  }
   .mainprod .introprod {
     left: 0;
     width: 100%;
@@ -589,6 +671,14 @@ footer .nets svg {
   }
 }
 @media only screen and (max-width: 500px) {
+  .mainindex .index_first div h2 {
+    font-size: 28px;
+  }
+  footer .container-fluid .logo {
+    width: 288px;
+    height: 162px;
+    padding: 0;
+  }
   .maincontacto {
     padding: 15px 0;
   }
@@ -596,16 +686,71 @@ footer .nets svg {
     width: 70%;
   }
   .maincontacto .formulario h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
   .maincontacto .mapa {
     width: 100%;
   }
 }
 @media only screen and (max-width: 400px) {
+  .container-fluid .navbar-brand {
+    font-size: 25px;
+  }
   .mainindex .index_first {
     text-align: center;
   }
+  .mainindex .index_first div h2 {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+}
+@keyframes reflex {
+  0% {
+    text-shadow: -1px 0px 2px rgba(255, 255, 255, 0.41);
+  }
+  5% {
+    text-shadow: -2px 0px 3px rgba(255, 255, 255, 0.61);
+  }
+  10% {
+    text-shadow: -2px 0px 4px rgba(255, 255, 255, 0.61);
+  }
+  15% {
+    text-shadow: -2px 0px 7px rgba(255, 255, 255, 0.61);
+  }
+  20% {
+    text-shadow: -2px 0px 9px rgb(255, 255, 255);
+  }
+  30% {
+    text-shadow: -2px 0px 16px rgb(255, 255, 255);
+  }
+  40% {
+    text-shadow: -2px 0px 38px rgba(255, 255, 255, 0.91);
+  }
+  50% {
+    text-shadow: -2px 0px 16px rgb(255, 255, 255);
+  }
+  70% {
+    text-shadow: -2px 0px 9px rgb(255, 255, 255);
+  }
+  80% {
+    text-shadow: -2px 0px 2px rgba(255, 255, 255, 0.61);
+  }
+  100% {
+    text-shadow: -1px 0px 2px rgba(255, 255, 255, 0.41);
+  }
+}
+.mainindex .index_first div h1 {
+  animation-name: reflex;
+  animation-iteration-count: initial;
+  animation-duration: 1.8s;
+  animation-delay: 2.5s;
+}
+.mainindex .index_first div h2 {
+  animation-name: reflex;
+  animation-iteration-count: initial;
+  animation-duration: 1.8s;
+  animation-delay: 2.5s;
 }
 
 /*# sourceMappingURL=style.css.map */

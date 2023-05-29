@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"animaciones.css"}
+{"version":3,"sourceRoot":"","sources":["../../scss/components/animaciones.scss"],"names":[],"mappings":"AAAA;EACI;IAAK;;EAEL;IAAI;;EAEJ;IAAK;;EAEL;IAAK;;EAEL;IAAK;;EAEL;IAAK;;EAEL;IAAM;;EAEN;IAAK;;EAEL;IAAK;;EAEL;IAAK;;EAEL;IAAO;;;AAMC;EAAI;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA;EACA","file":"animaciones.css"}

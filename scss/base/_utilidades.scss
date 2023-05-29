@@ -8,9 +8,9 @@
 
 .h1std {
     letter-spacing: 5px;
-    font-size: 60px;
+    font-size: 50px;
     color: #fff;
-    font-family: 'Italianno', cursive;
+    font-family: "PPeiko";
     text-shadow: -5px 3px 5px rgba(36, 32, 32, 0.753);
     @media only screen and (max-width: 768px){ 
         font-size: 45px;
@@ -18,11 +18,17 @@
     @media only screen and (max-width: 768px){ 
         font-size: 45px;
     }
+    @media only screen and (max-width: 500px){ 
+        font-size: 35px;
+    }
+    @media only screen and (max-width: 400px){ 
+        font-size: 25px;
+    }
 }
 
 .h2std {
     text-align: center;
-    font-family: 'Italianno', cursive;
+    font-family: "PPeiko";
     font-size: 45px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -30,6 +36,10 @@
     text-shadow: -5px 3px 5px rgba(36, 32, 32, 0.753);
     @media only screen and (max-width: 768px){ 
         font-size: 30px;
+    }
+    
+    @media only screen and (max-width: 500px){ 
+        font-size: 25px;
     }
 
 }

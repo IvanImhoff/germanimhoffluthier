@@ -7,7 +7,11 @@
     .navbar-brand {
         font-size: 34px;
         letter-spacing: 3px;
-        font-family: 'Italianno', cursive;
+        font-family: "PPeiko";
+        b {
+            font-weight: 200;
+            font-family: "Peiko";
+        }
     }
     .nav-link {
         transition: 0.5s;

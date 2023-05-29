@@ -28,11 +28,11 @@
         }
 
         .roseta1 {
-            border: inset 5px $colorlogo3;
+            border: solid 5px $colorlogo3;
             border-right: none;
-            border-radius: 20px;
             padding: 3vh;
             color: #fff;
+            background-image: linear-gradient(to right, $colorlogo3, $colorlogo3bg);
         }
         
         .carousel-inner {
@@ -47,12 +47,11 @@
         }
 
         .prensado1 {
-            border: inset 5px $colorlogo3;
-            border-left: none;
-            border-radius: 20px;
+            border: solid 5px $colorlogo3;
+            border-right: none;
             padding: 3vh;
             color: #fff;
-            transition: 0.4s;
+            background-image: linear-gradient(to left, $colorlogo3, $colorlogo3bg);
         }
     }
     

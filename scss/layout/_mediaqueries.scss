@@ -35,6 +35,13 @@
     
 }
 
+@media only screen and (max-width: 1200px){
+    // PROCESOS
+    .interval {
+        gap: 15px;
+    }
+}
+
 
 @media only screen and (max-width: 1000px){
     // NAV
@@ -43,6 +50,7 @@
             background-position: 0% 100%;
         }
     }
+    
     
 
     // procesos
@@ -58,6 +66,7 @@
                 border-bottom: none;
                 width: 100%;
                 justify-content: center;
+                background-image: linear-gradient(to bottom, $colorlogo3, $colorlogo3bg);
             }
 
             .roseta2 {
@@ -68,6 +77,7 @@
                 border-bottom: none;
                 width: 100%;
                 justify-content: center;
+                background-image: linear-gradient(to bottom, $colorlogo3, $colorlogo3bg);
             }
 
             .prensado2 {
@@ -126,11 +136,18 @@
     // INDEX
     .mainindex {
         .index_first {
-            text-align: left;
-            align-items: center;
+            h2 {
+                align-self: center;
+            }
         }
         .index_second {
             padding: 10px;
+
+            &_right {
+                h2 {
+                    padding-top: 20px;
+                }
+            }
         }
     }
     
@@ -180,6 +197,30 @@
 }
 
 @media only screen and (max-width: 700px){
+
+    // NAV
+    .container-fluid {
+        .navbar-brand {
+            font-size: 30px;
+            b {
+                font-weight: 200;
+                font-family: "Peiko";
+            }
+        }
+    }
+
+    // INDEX
+    .mainindex {
+        .index_first {
+            div {
+                h2 {
+                    margin-left: 0;
+                }
+            }
+            
+        }
+    }
+
     .mainprod{
         .introprod {
             left: 0;
@@ -200,13 +241,35 @@
 }
 
 @media only screen and (max-width: 500px){
+// INDEX
+.mainindex {
+    .index_first {
+        div {
+            h2 {
+                font-size: 28px;
+            }
+        }
+        
+    }
+}
+
+// FOOTER
+    footer {
+        .container-fluid {
+            .logo {
+                width: 288px;
+                height: 162px;
+                padding: 0;
+            }
+        }
+    }
     // contacto
     .maincontacto {
         padding: 15px 0;
         .formulario {
             width: 70%;
             h1 {
-                font-size: 40px;
+                font-size: 25px;
             }
         }
         .mapa {
@@ -216,9 +279,26 @@
 }
 
 @media only screen and (max-width: 400px){
+    // NAV
+    .container-fluid {
+        .navbar-brand {
+            font-size: 25px;
+        }
+    }
+
+    // INDEX
     .mainindex {
         .index_first {
             text-align: center;
+
+            div {
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    padding: 0;
+                }
+            }
+            
         }
     }
 }
